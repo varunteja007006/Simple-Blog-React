@@ -4,7 +4,6 @@ import Create from './Create';
 import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Newcomponent from './Newcomponent';
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route path="create" element={<Create />} />
             <Route path="blogs/:id" element={<BlogDetails />} />
-            <Route path="createfsfs" element={<Newcomponent />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
